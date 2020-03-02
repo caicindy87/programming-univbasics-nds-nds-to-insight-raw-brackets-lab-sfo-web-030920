@@ -36,13 +36,13 @@ def directors_totals(nds)
 
 
 
-results_hash = {}
+result = {}
 directors_database.length.times { |index|
   results_hash[name_array[index]] = totals_array[index]
   
   }
 
-puts results_hash
+puts result
     
   #
   # Use loops, variables and the accessing method, [], to loop through the NDS
