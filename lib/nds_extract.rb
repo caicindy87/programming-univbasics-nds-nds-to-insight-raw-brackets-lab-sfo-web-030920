@@ -38,7 +38,7 @@ def directors_totals(nds)
 
 result = {}
 directors_database.length.times { |index|
-  results_hash[name_array[index]] = totals_array[index]
+  result[name_array[index]] = totals_array[index]
   
   }
 
